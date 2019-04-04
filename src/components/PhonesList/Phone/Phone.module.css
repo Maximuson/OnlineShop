@@ -1,0 +1,41 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    min-height: 200px;
+    box-sizing: border-box;  
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transition: all 0.7s;
+    background: white;
+    
+}
+.wrapper:hover{
+    transition: all 0.7s;
+    transform: scale(1.05);
+    z-index: 10;
+}
+.phoneName{
+    align-self: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.price{
+    font-family: 'Roboto', sans-serif
+}
+.bottomPanel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonBuy{
+    height: 32px;
+    cursor: pointer;
+}
+
+.photo{
+    transition: all 1s;
+    width: 25vw;
+}
